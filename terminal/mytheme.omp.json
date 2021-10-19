@@ -15,15 +15,15 @@
                     }
                 },
                 {
-                  "type": "session",
-                  "style": "plain",
-                  "foreground": "#2573de",
-                  "properties": {
-                    "user_info_separator": "",
-                    "display_host": false,
-                    "prefix": "<#437e7a>(</>",
-                    "postfix": "<#437e7a>)-</>"
-                  }
+                    "type": "session",
+                    "style": "plain",
+                    "foreground": "#2573de",
+                    "properties": {
+                        "user_info_separator": "",
+                        "display_host": false,
+                        "prefix": "<#437e7a>(</>",
+                        "postfix": "<#437e7a>)-</>"
+                    }
                 },
                 {
                     "type": "path",
