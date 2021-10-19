@@ -1,0 +1,102 @@
+{
+    "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh3/main/themes/schema.json",
+    "blocks": [
+        {
+            "type": "prompt",
+            "alignment": "left",
+            "segments": [
+                {
+                    "type": "text",
+                    "style": "plain",
+                    "properties": {
+                        "prefix": "",
+                        "text": "<#437e7a>┌──</>",
+                        "postfix": ""
+                    }
+                },
+                {
+                  "type": "session",
+                  "style": "plain",
+                  "foreground": "#2573de",
+                  "properties": {
+                    "user_info_separator": "",
+                    "display_host": false,
+                    "prefix": "<#437e7a>(</>",
+                    "postfix": "<#437e7a>)-</>"
+                  }
+                },
+                {
+                    "type": "path",
+                    "style": "plain",
+                    "foreground": "#ffffff",
+                    "properties": {
+                        "style": "agnoster_short",
+                        "folder_icon": "\u2026",
+                        "prefix": "<#437e7a>[</>",
+                        "postfix": ""
+                    }
+                },
+                {
+                    "type": "git",
+                    "style": "plain",
+                    "foreground": "#ffffff",
+                    "properties": {
+                        "prefix": "<#437e7a> - </>",
+                        "postfix": "<#437e7a></>",
+                        "branch_icon": "\ue725 "
+                    }
+                },
+                {
+                    "type": "text",
+                    "style": "plain",
+                    "properties": {
+                        "prefix": "",
+                        "text": "<#437e7a>]</>",
+                        "postfix": ""
+                    }
+                },
+                {
+                    "type": "exit",
+                    "style": "plain",
+                    "foreground": "#ffffff",
+                    "properties": {
+                        "prefix": "<#437e7a>-[</><#CB4B16>x</>",
+                        "postfix": "<#437e7a>]</>"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "prompt",
+            "alignment": "right",
+            "horizontal-offset": 5,
+            "segments": [
+                {
+                    "type": "time",
+                    "style": "plain",
+                    "foreground": "#ffffff",
+                    "properties": {
+                        "time_format": "15:04:05",
+                        "prefix": "<#437e7a>[</>",
+                        "postfix": "<#437e7a>]</>"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "prompt",
+            "alignment": "left",
+            "newline": true,
+            "segments": [
+                {
+                    "type": "text",
+                    "style": "plain",
+                    "properties": {
+                        "prefix": "<#437e7a>└─</>",
+                        "text": "<#2573de>$</>"
+                    }
+                }
+            ]
+        }
+    ]
+}

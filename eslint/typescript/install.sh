@@ -1,0 +1,1 @@
+npm i -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-import-resolver-typescript eslint-plugin-array-func eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-optimize-regex eslint-plugin-promise eslint-plugin-radar eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-security eslint-plugin-unicorn eslint-webpack-plugin
