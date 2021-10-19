@@ -1,1 +1,1 @@
-npm i -D eslint
+npm i -g eslint
