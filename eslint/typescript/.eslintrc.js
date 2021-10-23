@@ -1,4 +1,4 @@
-/* eslint-disable key-spacing, radar/no-duplicate-string, unicorn/prefer-module */
+/* eslint-disable key-spacing, sonarjs/no-duplicate-string, unicorn/prefer-module */
 
 const ERROR = "error";
 const WARN = "warn";
@@ -47,7 +47,7 @@ module.exports = {
         "react",
         "react-hooks",
         "security",
-        "radar",
+        "sonarjs",
         "unicorn",
     ],
     extends: [
@@ -63,7 +63,7 @@ module.exports = {
         "plugin:react-hooks/recommended",
         "plugin:react/recommended",
         "plugin:security/recommended",
-        "plugin:radar/recommended",
+        "plugin:sonarjs/recommended",
         "plugin:unicorn/recommended",
 
     ],
@@ -278,8 +278,8 @@ module.exports = {
         "prefer-template":                                              [ERROR],
         "quote-props":                                                  [WARN, "consistent-as-needed"],
         "quotes":                                                       [WARN, "double"],
-        "radar/no-identical-functions":                                 [WARN],
-        "radar/cognitive-complexity":                                   [OFF],
+        "sonarjs/no-identical-functions":                                 [WARN],
+        "sonarjs/cognitive-complexity":                                   [OFF],
         "react-hooks/exhaustive-deps":                                  [WARN],
         "react-hooks/rules-of-hooks":                                   [ERROR],
         "react/button-has-type":                                        [ERROR],
