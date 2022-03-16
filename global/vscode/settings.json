@@ -1,0 +1,156 @@
+{
+    "beautify.language": {
+        "css": [
+            "css",
+            "scss",
+            "less"
+        ],
+        "html": [
+            "htm",
+            "html"
+        ],
+        "js": {
+            "filename": [
+                ".eslintrc",
+                ".jshintrc",
+                ".jsbeautify"
+            ],
+            "type": [
+                "javascript",
+                "json"
+            ]
+        },
+        "ts": {
+            "filename": [
+                ".eslintrc",
+                ".jshintrc",
+                ".jsbeautify"
+            ],
+            "type": [
+                "typescript",
+                "javascript",
+                "json"
+            ]
+        }
+    },
+    "breadcrumbs.enabled": true,
+    "css.validate": false,
+    "diffEditor.codeLens": true,
+    "editor.accessibilitySupport": "off",
+    "editor.autoIndent": "full",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.codeLensFontFamily": "'Fira Code'",
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorStyle": "block",
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "bold",
+    "editor.inlineSuggest.enabled": true,
+    "editor.linkedEditing": true,
+    "editor.minimap.maxColumn": 200,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": "always",
+    "editor.quickSuggestions": true,
+    "editor.rename.enablePreview": false,
+    "editor.renderWhitespace": "all",
+    "editor.smoothScrolling": true,
+    "editor.suggest.showStatusBar": true,
+    "editor.suggestSelection": "first",
+    "editor.tokenColorCustomizations": {
+        "comments": "#229977"
+    },
+    "editor.wordWrap": "on",
+    "emmet.excludeLanguages": [],
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.showExpandedAbbreviation": "always",
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.syntaxProfiles": {
+        "javascriptreact": {
+            "attr_quotes": "double"
+        }
+    },
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "vue"
+    ],
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.associations": {
+        "*.config": "xml",
+        "*.js": "javascript",
+        "*.jsx": "javascriptreact",
+        "*.ts": "typescript"
+    },
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": false,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/CVS": true
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "git.enableSmartCommit": true,
+    "gitlens.defaultDateFormat": "HH:MM - DD.MM.YYYY",
+    "html-css-class-completion.enableEmmetSupport": true,
+    "javascript.format.enable": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "javascript.inlayHints.enumMemberValues.enabled": true,
+    "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "javascript.inlayHints.parameterNames.enabled": "all",
+    "javascript.inlayHints.parameterTypes.enabled": true,
+    "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "javascript.inlayHints.variableTypes.enabled": true,
+    "javascript.suggestionActions.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.validate.enable": false,
+    "less.validate": false,
+    "markdown-preview-enhanced.HTML5EmbedIsAllowedHttp": true,
+    "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+    "material-icon-theme.activeIconPack": "react",
+    "material-icon-theme.showUpdateMessage": false,
+    "python.languageServer": "Pylance",
+    "remote.SSH.remotePlatform": { },
+    "remote.SSH.suppressWindowsSshWarning": true,
+    "security.workspace.trust.banner": "never",
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontFamily": "FiraCode NF",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell"
+        }
+    },
+    "typescript.format.enable": false,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "typescript.inlayHints.enumMemberValues.enabled": true,
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "typescript.inlayHints.parameterNames.enabled": "all",
+    "typescript.inlayHints.parameterTypes.enabled": true,
+    "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "typescript.inlayHints.variableTypes.enabled": true,
+    "typescript.suggestionActions.enabled": false,
+    "typescript.tsserver.log": "off",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.validate.enable": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.menuBarVisibility": "classic",
+    "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+    "window.zoomLevel": -1,
+    "workbench.colorTheme": "Noctis Obscuro",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.historyBasedLanguageDetection": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile"
+}

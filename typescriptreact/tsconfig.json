@@ -1,0 +1,33 @@
+{
+    "//": {
+        "reference": "https://www.typescriptlang.org/tsconfig"
+    },
+    "compilerOptions": {
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "allowUmdGlobalAccess": true,
+        "baseUrl": "./src",
+        "downlevelIteration": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+        "jsx": "react",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noEmit": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "paths": {
+            "~/*": ["*"],
+        },
+        "resolveJsonModule": true,
+        "strict": true,
+        "types": ["node", "webpack-env", "jest", "@testing-library/jest-dom"],
+    },
+    "exclude": [
+        "./node_modules",
+        "./dist",
+        "./**/*.stories.tsx"
+    ]
+}

@@ -1,0 +1,6 @@
+#!/bin/bash
+npm init -y
+
+npm i @react-hookz/web axios date-fns react react-dom react-query react-router-dom
+
+npm i -D @babel/core @babel/plugin-proposal-class-properties @babel/plugin-transform-react-jsx @babel/plugin-transform-runtime @babel/preset-env @babel/preset-react @babel/preset-typescript @babel/register @babel/runtime @testing-library/dom @testing-library/jest-dom @testing-library/react @testing-library/user-event @types/jest @types/react @types/react-dom @types/react-router-dom @types/webpack-dev-server @types/webpack-env @types/workbox-webpack-plugin @typescript-eslint/eslint-plugin @typescript-eslint/parser babel-loader clean-webpack-plugin eslint eslint-import-resolver-typescript eslint-plugin-array-func eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-optimize-regex eslint-plugin-promise eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-security eslint-plugin-sonarjs eslint-plugin-unicorn eslint-webpack-plugin favicons-webpack-plugin fork-ts-checker-webpack-plugin html-webpack-plugin jest jest-localstorage-mock jest-mock-axios jest-transform-stub ts-node typescript url-loader webpack webpack-cli webpack-dev-server webpack-manifest-plugin webpack-merge webpack-subresource-integrity workbox-webpack-plugin

@@ -8,7 +8,7 @@ module.exports = {
     root: true,
     parser: "@typescript-eslint/parser",
     parserOptions: {
-        ecmaVersion: 2020,
+        ecmaVersion: 2021,
         sourceType: "module",
         tsconfigRootDir: __dirname,
         project: "./tsconfig.json",
@@ -382,6 +382,12 @@ module.exports = {
             files: ["*.js"],
             rules: {
                 "@typescript-eslint/explicit-function-return-type":     [OFF],
+            },
+        },
+        {
+            files: ["webpack.*.ts"],
+            rules: {
+                "unicorn/prefer-module":                                [OFF],
             },
         },
     ],
